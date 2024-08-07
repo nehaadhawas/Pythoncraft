@@ -1,0 +1,20 @@
+# Create a list of numbers
+numbers = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+
+# Access elements using indexing
+first_element = numbers[0]  # First element
+last_element = numbers[-1]  # Last element
+fifth_element = numbers[4]  # Fifth element
+
+# Access a sublist using slicing
+first_three_elements = numbers[:3]  # First three elements
+middle_elements = numbers[3:7]      # Elements from index 3 to 6
+last_three_elements = numbers[-3:]  # Last three elements
+
+# Print the results
+print("First element:", first_element)
+print("Last element:", last_element)
+print("Fifth element:", fifth_element)
+print("First three elements:", first_three_elements)
+print("Middle elements:", middle_elements)
+print("Last three elements:", last_three_elements)
