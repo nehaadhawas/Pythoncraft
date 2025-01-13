@@ -1,0 +1,37 @@
+def cave_adventure():
+  print("Hello friends, Welcome to cave adventure")
+  print("You will find yourself standing in front of a dark cave /n choose one path left or right")
+  print("/n")
+  
+  if choice == "right":
+    print("Okay brave enough let's proceed")
+    print("There is a door, do you want to open it (Yes/No):")
+    
+    choice = input("Enter 'yes' or 'no'")
+    if choice == "yes":
+      print("Hurray , we found a treasure.")
+    elif choice == "no":
+      print("There is nothing in this room, bad luck !!")
+    else:
+      print("Invalid input")
+     
+  if choice == "left":
+    print("You have guts....!!!")
+    print("Hey, I have a map do you want to follow the root ?")
+    
+    choice = input("Enter 'yes' or 'no'")
+    if choice == "yes":
+      print("That's the spirit let's get going")
+    elif choice == "no":
+      print("Okay then it's okay to decide things by our own.")
+    else:
+      print("Invalid Input")
+      
+      
+cave_adventure()              
+          
+      
+      
+          
+  
+  
